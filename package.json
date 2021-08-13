@@ -3,14 +3,16 @@
   "version": "0.0.1",
   "description": "A library for integrating relay subscriptions with mongodb",
   "main": "lib/index.js",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adam-hanna/relay-mongo-subscriptions.git"
   },
   "scripts": {
-    "build" : "rm -rf lib && tsc && cp -R ./src/lib ./lib",
+    "build": "rm -rf lib && tsc && cp -R ./src/lib ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adam Hanna",
