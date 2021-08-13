@@ -3,7 +3,7 @@ import { $$asyncIterator } from 'iterall';
 import Watcher from '../watcher'
 import Throttle from '../throttle'
 
-function pubsub({
+const pubsub = ({
   collectionName,
   query,
   delay,
@@ -16,7 +16,7 @@ function pubsub({
   delay: number;
   leading: boolean;
   trailing: boolean;
-}): AsyncIterator<any> {
+}): AsyncIterator<any> => {
   const throttler = new Throttle({
     delay,
     leading,
