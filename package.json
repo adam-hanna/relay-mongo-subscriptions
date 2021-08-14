@@ -1,6 +1,6 @@
 {
   "name": "relay-mongo-subscriptions",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A library for integrating relay subscriptions with mongodb",
   "main": "lib/index.js",
   "files": [
