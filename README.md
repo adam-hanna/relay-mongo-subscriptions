@@ -2,6 +2,14 @@
 
 This library can be used to implement relay subscriptions with MongoDB.
 
+## Installation
+
+This library is available on [npm](https://www.npmjs.com/package/relay-mongo-subscriptions) and is as easy to install as:
+
+```bash
+$ npm i --save relay-mongo-subscriptions
+```
+
 ## Demo
 
 A simple TODO demo can be found, [here](https://github.com/adam-hanna/relay-mongo-subscriptions-example).
@@ -9,6 +17,10 @@ A simple TODO demo can be found, [here](https://github.com/adam-hanna/relay-mong
 ![Demo GIF](https://github.com/adam-hanna/relay-mongo-subscriptions-example/blob/master/20210813_example_v2.gif)
 
 ## Quickstart
+
+```bash
+$ npm i --save relay-mongo-subscriptions
+```
 
 **schema.graphql**
 
